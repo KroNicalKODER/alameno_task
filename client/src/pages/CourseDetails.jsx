@@ -8,7 +8,7 @@ const CourseDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/courses/${id}`)
+    axios.get(`http://alameno-task.onrender.com/api/courses/${id}`)
       .then((res) => {
         setCourse(res.data);
       })

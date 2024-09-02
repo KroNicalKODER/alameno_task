@@ -11,7 +11,7 @@ const CourseCard = ( course ) => {
     
     console.log("like clicked", course.id, course.likes)
     if(!course.likes){
-      await axios.post(`http://localhost:5000/api/like/${course.id}`, { studentId: student.id }).then((res => {
+      await axios.post(`http://alameno-task.onrender.com/api/like/${course.id}`, { studentId: student.id }).then((res => {
         console.log("like added", res.data)
         ref.current.className = "badge bg-primary"
       })).catch(err => {
@@ -25,7 +25,7 @@ const CourseCard = ( course ) => {
   const handleRemoveLikes = async (e) => {
     console.log("like clicked", course.id, course.likes)
     if(course.likes){
-      await axios.post(`http://localhost:5000/api/removeLike/${course.id}`, { studentId: student.id }).then((res => {
+      await axios.post(`http://alameno-task.onrender.com/api/removeLike/${course.id}`, { studentId: student.id }).then((res => {
         console.log("like added", res.data)
         ref.current.className = "badge bg-danger"
       })).catch(err => {

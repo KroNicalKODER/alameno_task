@@ -6,9 +6,14 @@ import bodyParser from 'body-parser';
 import fs from 'fs';
 
 const app = express();
-const PORT = 5000;
+const PORT = 5000 || process.env.PORT;
 
-app.use(cors());
+app.use(cors(
+  {
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002'],
+    credentials: true
+  }
+));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
