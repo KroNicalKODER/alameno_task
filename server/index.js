@@ -11,9 +11,17 @@ const PORT = 5000 || process.env.PORT;
 app.use(cors(
   {
     origin: ['http://localhost:3000', 'https://alameno-task.onrender.com', 'http://localhost:5173'],
-    credentials: true
+    credentials: true,
+    optionsSuccessStatus: 200,
   }
 ));
+
+// Custom middleware to set Access-Control-Allow-Origin header explicitly
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Replace '*' with specific origins if necessary
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
