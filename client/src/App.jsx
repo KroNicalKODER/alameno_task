@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import CourseList from "./pages/CourseList";
 import CourseDetails from "./pages/CourseDetails";
 import Dashboard from "./pages/Dashboard";
+import Extra from "./pages/exta";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           </Link>
         </nav>
         <Routes>
-          <Route path="/" exact element={<CourseList />} />
+          <Route path="/" exact element={<Extra />} />
           <Route path="/:id" exact element={<CourseList />} />
           <Route path="/course/:id" exact element={<CourseDetails />} />
           <Route path="/dashboard" exact element={<Dashboard />} />

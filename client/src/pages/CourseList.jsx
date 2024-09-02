@@ -19,20 +19,20 @@ const CourseList = () => {
 
         if(id){
             if(!student){
-                axios.get(`http://alameno-task.onrender.com/api/students/${id}`).then(res => {
+                axios.get(`http://localhost:5000/api/students/${id}`).then(res => {
                     console.log(res.data)
                     dispatch(addStudent(res.data))
                 })
             } else {
                 dispatch(removeStudent())
-                axios.get(`http://alameno-task.onrender.com/api/students/${id}`).then(res => {
+                axios.get(`http://localhost:5000/api/students/${id}`).then(res => {
                     console.log(res.data)
                     dispatch(addStudent(res.data))
                 })
             }
         }
 
-        axios.get('http://alameno-task.onrender.com/api/courses')
+        axios.get('http://localhost:5000/api/courses')
         .then(res => {
             console.log(res.data)
             setCourses(res.data)

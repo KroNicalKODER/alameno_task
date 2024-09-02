@@ -13,9 +13,7 @@
       "Basic JavaScript knowledge",
       "Familiarity with React"
     ],
-    "likes": [
-      3
-    ],
+    "likes": [],
     "syllabus": [
       {
         "week": 1,
@@ -120,9 +118,7 @@
     "prerequisites": [
       "Basic knowledge of JavaScript, HTML, CSS"
     ],
-    "likes": [
-      3
-    ],
+    "likes": [],
     "syllabus": [
       {
         "week": 1,
