@@ -1,0 +1,17 @@
+.accordion-button {
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+.accordion-body {
+background-color: transparent !important;
+}
+
+.transparent-bg {
+    background-color: transparent !important;
+    /* border: none !important; */
+    box-shadow: none !important;
+  }
+  
+  

@@ -1,0 +1,208 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "username": "alice_j",
+      "password": "password123",
+      "enrolled_courses": [
+        {
+          "course_id": 3,
+          "total_weeks": 10,
+          "completed_weeks": 5
+        },
+        {
+          "course_id": 4,
+          "total_weeks": 4,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 7,
+          "total_weeks": 6,
+          "completed_weeks": 4
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "username": "bob_s",
+      "password": "password456",
+      "enrolled_courses": [
+        {
+          "course_id": 4,
+          "total_weeks": 4,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "username": "charlie_b",
+      "password": "password789",
+      "enrolled_courses": [
+        {
+          "course_id": 4,
+          "total_weeks": 4,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 7
+        },
+        {
+          "course_id": 6,
+          "total_weeks": 8,
+          "completed_weeks": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "David Wilson",
+      "username": "david_w",
+      "password": "passwordabc",
+      "enrolled_courses": [
+        {
+          "course_id": 4,
+          "total_weeks": 4,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 6,
+          "total_weeks": 8,
+          "completed_weeks": 6
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Eve Davis",
+      "username": "eve_d",
+      "password": "passworddef",
+      "enrolled_courses": [
+        {
+          "course_id": 4,
+          "total_weeks": 4,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 6,
+          "total_weeks": 8,
+          "completed_weeks": 4
+        },
+        {
+          "course_id": 7,
+          "total_weeks": 6,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 7
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Frank Thomas",
+      "username": "frank_t",
+      "password": "passwordghi",
+      "enrolled_courses": [
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 7
+        },
+        {
+          "course_id": 6,
+          "total_weeks": 8,
+          "completed_weeks": 6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Grace Lee",
+      "username": "grace_l",
+      "password": "passwordjkl",
+      "enrolled_courses": [
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 8
+        },
+        {
+          "course_id": 6,
+          "total_weeks": 8,
+          "completed_weeks": 6
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Henry Martin",
+      "username": "henry_m",
+      "password": "passwordmno",
+      "enrolled_courses": [
+        {
+          "course_id": 7,
+          "total_weeks": 6,
+          "completed_weeks": 3
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 6
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ivy White",
+      "username": "ivy_w",
+      "password": "passwordpqr",
+      "enrolled_courses": [
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 8
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Jack Black",
+      "username": "jack_b",
+      "password": "passwordstu",
+      "enrolled_courses": [
+        {
+          "course_id": 3,
+          "total_weeks": 10,
+          "completed_weeks": 4
+        },
+        {
+          "course_id": 9,
+          "total_weeks": 9,
+          "completed_weeks": 7
+        }
+      ]
+    }
+  ]
+  

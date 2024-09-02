@@ -1,0 +1,599 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to React Native",
+    "instructor": "John Doe",
+    "description": "Learn the basics of React Native development and build your first mobile app.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://img.freepik.com/premium-vector/react-native-mobile-apps-development-concept-with-modern-flat-style-vector-illustration_25147-695.jpg",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic JavaScript knowledge",
+      "Familiarity with React"
+    ],
+    "likes": [
+      3
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to React Native",
+        "content": "Overview of React Native, setting up your development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Understanding React Components",
+        "content": "Creating and using React Native components effectively."
+      },
+      {
+        "week": 3,
+        "topic": "Styling in React Native",
+        "content": "Implementing styles using StyleSheet and inline styles."
+      },
+      {
+        "week": 4,
+        "topic": "Working with Navigation",
+        "content": "Implementing navigation in your React Native application."
+      },
+      {
+        "week": 5,
+        "topic": "State Management",
+        "content": "Using useState, useEffect, and Context API for state management."
+      },
+      {
+        "week": 6,
+        "topic": "Connecting to APIs",
+        "content": "Fetching data from APIs using Axios or Fetch API."
+      },
+      {
+        "week": 7,
+        "topic": "Handling User Input",
+        "content": "Managing form inputs and handling user interactions."
+      },
+      {
+        "week": 8,
+        "topic": "Deploying React Native Apps",
+        "content": "Building and deploying your React Native app to app stores."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Advanced Node.js",
+    "instructor": "Jane Smith",
+    "description": "Dive deep into Node.js with advanced concepts and performance optimization techniques.",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?size=626&ext=jpg",
+    "duration": "6 weeks",
+    "schedule": "Wednesdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Intermediate JavaScript knowledge",
+      "Experience with Node.js"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Asynchronous Programming in Node.js",
+        "content": "Mastering callbacks, promises, and async/await in Node.js."
+      },
+      {
+        "week": 2,
+        "topic": "Event-Driven Architecture",
+        "content": "Understanding and implementing event-driven programming in Node.js."
+      },
+      {
+        "week": 3,
+        "topic": "Performance Tuning",
+        "content": "Strategies for optimizing Node.js applications for better performance."
+      },
+      {
+        "week": 4,
+        "topic": "Security in Node.js",
+        "content": "Implementing security best practices in your Node.js applications."
+      },
+      {
+        "week": 5,
+        "topic": "Building Scalable Applications",
+        "content": "Techniques for building scalable and maintainable Node.js applications."
+      },
+      {
+        "week": 6,
+        "topic": "Testing and Debugging",
+        "content": "Testing Node.js applications and effective debugging strategies."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Full-Stack Development with MERN",
+    "instructor": "Michael Johnson",
+    "description": "Learn to build full-stack web applications using MongoDB, Express, React, and Node.js.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg",
+    "duration": "10 weeks",
+    "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+    "location": "Hybrid",
+    "prerequisites": [
+      "Basic knowledge of JavaScript, HTML, CSS"
+    ],
+    "likes": [
+      3
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to MERN Stack",
+        "content": "Overview of the MERN stack and setting up the development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Building RESTful APIs with Express",
+        "content": "Creating RESTful APIs using Express and connecting to MongoDB."
+      },
+      {
+        "week": 3,
+        "topic": "Front-end Development with React",
+        "content": "Building a dynamic front-end using React and React Router."
+      },
+      {
+        "week": 4,
+        "topic": "State Management with Redux",
+        "content": "Implementing Redux for state management in a React application."
+      },
+      {
+        "week": 5,
+        "topic": "Integrating Front-end with Back-end",
+        "content": "Connecting React front-end with Express back-end and MongoDB."
+      },
+      {
+        "week": 6,
+        "topic": "Authentication and Authorization",
+        "content": "Implementing user authentication and authorization with JWT."
+      },
+      {
+        "week": 7,
+        "topic": "Error Handling and Logging",
+        "content": "Implementing error handling and logging mechanisms in MERN applications."
+      },
+      {
+        "week": 8,
+        "topic": "Testing MERN Applications",
+        "content": "Unit and integration testing in MERN applications."
+      },
+      {
+        "week": 9,
+        "topic": "Deployment",
+        "content": "Deploying MERN applications to cloud platforms like Heroku and AWS."
+      },
+      {
+        "week": 10,
+        "topic": "Project Work",
+        "content": "Building a full-stack application as a capstone project."
+      }
+    ],
+    "students_enrolled": [
+      8,
+      4,
+      1,
+      5,
+      9
+    ]
+  },
+  {
+    "id": 4,
+    "name": "UI/UX Design Principles",
+    "instructor": "Emily White",
+    "description": "Explore the fundamental principles of UI/UX design and how to apply them to create user-friendly interfaces.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg",
+    "duration": "4 weeks",
+    "schedule": "Fridays, 2:00 PM - 4:00 PM",
+    "location": "On-site",
+    "prerequisites": [
+      "None"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to UI/UX",
+        "content": "Understanding the basics of user interface and user experience design."
+      },
+      {
+        "week": 2,
+        "topic": "Design Thinking Process",
+        "content": "Applying the design thinking process to create effective designs."
+      },
+      {
+        "week": 3,
+        "topic": "Wireframing and Prototyping",
+        "content": "Creating wireframes and prototypes using tools like Figma and Adobe XD."
+      },
+      {
+        "week": 4,
+        "topic": "Usability Testing",
+        "content": "Conducting usability tests to gather feedback and improve designs."
+      }
+    ],
+    "students_enrolled": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Machine Learning with Python",
+    "instructor": "Sophia Davis",
+    "description": "Get hands-on experience with machine learning concepts and techniques using Python.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://img.freepik.com/free-vector/brain-with-digital-circuit-programmer-with-laptop-machine-learning-artificial-intelligence-digital-brain-artificial-thinking-process-concept-vector-isolated-illustration_335657-2246.jpg",
+    "duration": "12 weeks",
+    "schedule": "Saturdays, 10:00 AM - 1:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic Python programming knowledge"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Machine Learning",
+        "content": "Understanding the basics of machine learning and setting up Python for ML."
+      },
+      {
+        "week": 2,
+        "topic": "Supervised Learning",
+        "content": "Implementing supervised learning algorithms in Python."
+      },
+      {
+        "week": 3,
+        "topic": "Unsupervised Learning",
+        "content": "Exploring unsupervised learning techniques such as clustering."
+      },
+      {
+        "week": 4,
+        "topic": "Feature Engineering",
+        "content": "Techniques for feature selection and engineering in machine learning."
+      },
+      {
+        "week": 5,
+        "topic": "Model Evaluation",
+        "content": "Evaluating machine learning models using various metrics."
+      },
+      {
+        "week": 6,
+        "topic": "Neural Networks",
+        "content": "Introduction to neural networks and deep learning."
+      },
+      {
+        "week": 7,
+        "topic": "Deep Learning with TensorFlow",
+        "content": "Implementing deep learning models using TensorFlow."
+      },
+      {
+        "week": 8,
+        "topic": "Natural Language Processing",
+        "content": "Applying machine learning techniques to NLP tasks."
+      },
+      {
+        "week": 9,
+        "topic": "Computer Vision",
+        "content": "Implementing machine learning models for image classification and object detection."
+      },
+      {
+        "week": 10,
+        "topic": "Time Series Analysis",
+        "content": "Working with time series data and forecasting models."
+      },
+      {
+        "week": 11,
+        "topic": "Reinforcement Learning",
+        "content": "Introduction to reinforcement learning and its applications."
+      },
+      {
+        "week": 12,
+        "topic": "Capstone Project",
+        "content": "Building a machine learning project from start to finish."
+      }
+    ],
+    "students_enrolled": [
+      1,
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Data Structures and Algorithms",
+    "instructor": "Robert Brown",
+    "description": "Learn the essential data structures and algorithms to solve complex programming challenges.",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "https://img.freepik.com/free-photo/abstract-networking-concept-still-life-composition_23-2149035688.jpg",
+    "duration": "8 weeks",
+    "schedule": "Mondays, 4:00 PM - 6:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Structures",
+        "content": "Overview of different data structures and their use cases."
+      },
+      {
+        "week": 2,
+        "topic": "Arrays and Linked Lists",
+        "content": "Implementing and using arrays and linked lists in algorithms."
+      },
+      {
+        "week": 3,
+        "topic": "Stacks and Queues",
+        "content": "Understanding and implementing stack and queue data structures."
+      },
+      {
+        "week": 4,
+        "topic": "Trees and Graphs",
+        "content": "Introduction to tree and graph data structures and their algorithms."
+      },
+      {
+        "week": 5,
+        "topic": "Sorting Algorithms",
+        "content": "Implementing and comparing various sorting algorithms."
+      },
+      {
+        "week": 6,
+        "topic": "Searching Algorithms",
+        "content": "Understanding and implementing search algorithms like binary search."
+      },
+      {
+        "week": 7,
+        "topic": "Dynamic Programming",
+        "content": "Introduction to dynamic programming and problem-solving techniques."
+      },
+      {
+        "week": 8,
+        "topic": "Algorithmic Complexity",
+        "content": "Analyzing the time and space complexity of algorithms."
+      }
+    ],
+    "students_enrolled": [
+      3,
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cloud Computing with AWS",
+    "instructor": "Olivia Martin",
+    "description": "Understand the fundamentals of cloud computing and how to deploy applications on AWS.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "https://img.freepik.com/free-vector/cloud-computing-data-streaming-concept_1017-31867.jpg?size=626&ext=jpg",
+    "duration": "6 weeks",
+    "schedule": "Thursdays, 3:00 PM - 5:00 PM",
+    "location": "Hybrid",
+    "prerequisites": [
+      "Basic understanding of networking and cloud concepts"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Cloud Computing",
+        "content": "Understanding cloud computing concepts and AWS services."
+      },
+      {
+        "week": 2,
+        "topic": "Setting Up AWS Environment",
+        "content": "Creating and configuring AWS accounts and services."
+      },
+      {
+        "week": 3,
+        "topic": "AWS Compute Services",
+        "content": "Understanding and using AWS EC2 and Lambda for compute needs."
+      },
+      {
+        "week": 4,
+        "topic": "AWS Storage Solutions",
+        "content": "Implementing storage solutions using AWS S3, EBS, and Glacier."
+      },
+      {
+        "week": 5,
+        "topic": "AWS Networking",
+        "content": "Configuring VPCs, subnets, and security groups in AWS."
+      },
+      {
+        "week": 6,
+        "topic": "Deploying and Managing Applications",
+        "content": "Deploying applications using AWS Elastic Beanstalk and CloudFormation."
+      }
+    ],
+    "students_enrolled": [
+      1,
+      8,
+      9,
+      5
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cybersecurity Fundamentals",
+    "instructor": "Liam Wilson",
+    "description": "Learn the basics of cybersecurity and how to protect systems from security threats.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://img.freepik.com/free-vector/cyber-security-concept_23-2148532223.jpg",
+    "duration": "5 weeks",
+    "schedule": "Wednesdays, 6:00 PM - 8:00 PM",
+    "location": "On-site",
+    "prerequisites": [
+      "Basic understanding of computer networks"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Cybersecurity",
+        "content": "Understanding the fundamental concepts of cybersecurity."
+      },
+      {
+        "week": 2,
+        "topic": "Common Security Threats",
+        "content": "Exploring various types of security threats and vulnerabilities."
+      },
+      {
+        "week": 3,
+        "topic": "Securing Networks and Systems",
+        "content": "Implementing network and system security best practices."
+      },
+      {
+        "week": 4,
+        "topic": "Ethical Hacking and Penetration Testing",
+        "content": "Introduction to ethical hacking and penetration testing techniques."
+      },
+      {
+        "week": 5,
+        "topic": "Incident Response and Management",
+        "content": "Developing an incident response plan and managing security incidents."
+      }
+    ],
+    "students_enrolled": []
+  },
+  {
+    "id": 9,
+    "name": "Blockchain Development",
+    "instructor": "Noah Taylor",
+    "description": "Explore blockchain technology and learn to build decentralized applications (DApps).",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "https://img.freepik.com/free-photo/3d-cryptocurrency-rendering-design_23-2149074561.jpg",
+    "duration": "9 weeks",
+    "schedule": "Tuesdays and Fridays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic programming knowledge"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Blockchain",
+        "content": "Understanding blockchain technology and its use cases."
+      },
+      {
+        "week": 2,
+        "topic": "Cryptography and Blockchain Security",
+        "content": "Basics of cryptography and its role in blockchain security."
+      },
+      {
+        "week": 3,
+        "topic": "Smart Contracts",
+        "content": "Creating and deploying smart contracts using Solidity."
+      },
+      {
+        "week": 4,
+        "topic": "Ethereum Platform",
+        "content": "Working with the Ethereum blockchain and developing DApps."
+      },
+      {
+        "week": 5,
+        "topic": "Decentralized Finance (DeFi)",
+        "content": "Exploring DeFi concepts and building DeFi applications."
+      },
+      {
+        "week": 6,
+        "topic": "Consensus Algorithms",
+        "content": "Understanding different consensus algorithms used in blockchains."
+      },
+      {
+        "week": 7,
+        "topic": "Developing DApps with Truffle",
+        "content": "Using Truffle to develop and test decentralized applications."
+      },
+      {
+        "week": 8,
+        "topic": "Blockchain Scaling Solutions",
+        "content": "Exploring Layer 2 scaling solutions for blockchain networks."
+      },
+      {
+        "week": 9,
+        "topic": "Final Project",
+        "content": "Building and deploying a full DApp as a capstone project."
+      }
+    ],
+    "students_enrolled": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Digital Marketing Strategies",
+    "instructor": "Ava Thompson",
+    "description": "Learn how to create and implement effective digital marketing strategies to grow your business.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg",
+    "duration": "7 weeks",
+    "schedule": "Thursdays, 10:00 AM - 12:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "None"
+    ],
+    "likes": [],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Digital Marketing",
+        "content": "Overview of digital marketing and its key components."
+      },
+      {
+        "week": 2,
+        "topic": "SEO and SEM",
+        "content": "Understanding search engine optimization and search engine marketing."
+      },
+      {
+        "week": 3,
+        "topic": "Social Media Marketing",
+        "content": "Leveraging social media platforms to grow your business."
+      },
+      {
+        "week": 4,
+        "topic": "Content Marketing",
+        "content": "Creating and distributing valuable content to attract and engage your audience."
+      },
+      {
+        "week": 5,
+        "topic": "Email Marketing",
+        "content": "Building and managing effective email marketing campaigns."
+      },
+      {
+        "week": 6,
+        "topic": "Analytics and Reporting",
+        "content": "Using analytics tools to measure and optimize your digital marketing efforts."
+      },
+      {
+        "week": 7,
+        "topic": "Digital Marketing Strategy",
+        "content": "Developing a comprehensive digital marketing strategy for your business."
+      }
+    ],
+    "students_enrolled": []
+  }
+]
