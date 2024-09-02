@@ -16,9 +16,8 @@ app.use(cors(
   }
 ));
 
-// Custom middleware to set Access-Control-Allow-Origin header explicitly
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*'); // Replace '*' with specific origins if necessary
+  res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
@@ -26,7 +25,12 @@ app.use((req, res, next) => {
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 app.get('/api/courses', (req, res) => {
+  console.log(res.getHeaders())
   res.json(courses);
 });
 
