@@ -10,10 +10,11 @@ const PORT = 5000 || process.env.PORT;
 
 app.use(cors(
   {
-    origin: '*',
+    origin: ['http://localhost:3000', 'https://alameno-task.onrender.com', 'http://localhost:5173'],
     credentials: true
   }
 ));
+
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
